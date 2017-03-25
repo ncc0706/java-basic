@@ -35,7 +35,13 @@ Java 常见面试题
 				this.names = Arrays.copyOf(names, names.length);
 			}
 		}
-5. 
+5. 如何复制某个ArrayList到另一个ArrayList中去？
+
+	1. 使用ArrayList的clone方法 
+	2. 使用ArrayList构造方法
+	3. 使用Collection的copy方法。
+
+6. 
 
 
 
