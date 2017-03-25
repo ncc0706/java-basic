@@ -11,5 +11,5 @@ static 修饰的成员变量是类变量, 非static修饰的成员变量是实�
 
 javac java源文件 `javap -c java class文件`分析{初始化块} 指定初始化值
 
-![javap分析](resources/01.png)
+![javap分析](https://github.com/ncc0706/java-basic/blob/master/src/main/resources/01.png "javap分析图")
 
