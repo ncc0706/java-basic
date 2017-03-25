@@ -16,7 +16,26 @@ Java 常见面试题
 
 	答：ArrayList试图增加一个元素时，Java会去检查ArrayList，已确保当前数组有足够的容量存储新对象。如果没有足够的容量，那么就新建一个更长的数组，旧的数组就会使用Arrays.copyOf方法被复制到新的数组中，现有数组引用指向了新的数组。
 
-4. 
+4. 当传递ArrayList到某个方法中,或某个方法返回ArrayList，什么时候要考虑安全隐患？如何修复安全违规问题？
+
+	答：当array被当做参数传递到某个方法中，如果array在没有被赋值的情况下直接被分配给了成员变量，那么就可能发生这种情况，即当原始的数组被调用的方法改变的时候，传递到这个方法中的数组也会改变。下面的这段代码展示的就是安全违规以及如何修复这个问题。
+
+	ArrayList被直接赋给成员变量——安全隐患：
+
+		public void setNames(String[] names) {
+			this.names = names;
+		}
+
+	修复这个安全隐患：
+
+		public void setNames(String[] names) {
+			if(names == null){
+				this.names = new String[0];
+			}else{
+				this.names = Arrays.copyOf(names, names.length);
+			}
+		}
+5. 
 
 
 
