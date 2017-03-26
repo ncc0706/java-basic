@@ -6,6 +6,7 @@ import java.util.TreeSet;
 public class TreeSet01 {
 
 	// TreeSet 是SortedSet接口的实现类
+	// TreeSet 是二差树实现的
 	public static void main(String[] args) {
 		
 		// 内部是TreeMap实现的
