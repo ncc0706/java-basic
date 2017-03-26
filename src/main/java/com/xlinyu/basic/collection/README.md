@@ -34,7 +34,7 @@ Vector非常类似ArrayList，但是Vector是同步的。同样适合查询
 
 ## Set
 
-Set是一种不包含重复的元素的Collection，最多有一个null元素。
+Set是一种不包含重复的元素的Collection，最多有一个null元素。set遍历使用Iterator迭代
 
 ### HashSet
 
@@ -43,6 +43,10 @@ Set是一种不包含重复的元素的Collection，最多有一个null元素。
 ### LinkedHashSet
 
 有序 ，不重复， 访问元素比HashSet要好，插入时性能稍微逊色。 默认大小为16，加载因子0.75
+
+### TreeSet
+
+TreeSet是SortedSet接口的实现类，内部是TreeMap. 有序 ，不重复。不允许null元素
 
 
 
