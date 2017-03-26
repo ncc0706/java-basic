@@ -9,9 +9,11 @@ public class LinkedHashSet01 {
 	public static void main(String[] args) {
 		Set<String> datas = new LinkedHashSet<String>();
 		
-		datas.add("ccc");
-		datas.add("ccc");
-		
+		boolean f0 = datas.add("ccc");
+		System.out.println(f0);
+		// 元素已经存在 返回false
+		boolean f = datas.add("ccc");
+		System.out.println(f);
 		datas.add("aaa");
 		datas.add("99999");
 		datas.add("bbbbbbbbbbb");
