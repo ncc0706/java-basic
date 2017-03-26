@@ -7,6 +7,9 @@ public class HashSetTest {
 
 	public static void main(String[] args) {
 
+		/**
+		 * 无序 不重复
+		 */
 		Set<String> data = new HashSet<String>();
 		data.add(null);
 		data.add("你好");
