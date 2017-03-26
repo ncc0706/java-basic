@@ -28,3 +28,14 @@ LinkedList 有序可重复, 底层采用双向链表，每个节点都包含了�
 
 Vector非常类似ArrayList，但是Vector是同步的。
 
+## Set
+
+Set是一种不包含重复的元素的Collection，最多有一个null元素。
+
+### HashSet
+
+无序 不重复 ， 允许一个null元素， 是基于HashMap实现的，线程非安全的
+
+
+
+
