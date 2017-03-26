@@ -19,3 +19,7 @@
 ## Hashtable
 用默认的初始容量 (11) 和加载因子 (0.75), 任何非 null 对象都可以用作键或值， 线程安全的,是基于陈旧的Dictionary类
 
+## TreeMap
+
+基于红黑树（Red-Black tree）的 NavigableMap 实现.TreeMap实现SortMap接口. 不允许null作为key， 无序的Map， 非线程安全。
+
