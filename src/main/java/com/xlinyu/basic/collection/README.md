@@ -48,5 +48,5 @@ Set是一种不包含重复的元素的Collection，最多有一个null元素。
 
 TreeSet是SortedSet接口的实现类，内部是TreeMap. 有序 ，不重复。不允许null元素，是二叉树实现的。
 
-
+![collection](https://github.com/ncc0706/java-basic/blob/master/src/main/resources/Collection-Map.png)
 

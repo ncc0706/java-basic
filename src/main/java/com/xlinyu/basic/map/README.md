@@ -23,3 +23,5 @@
 
 基于红黑树（Red-Black tree）的 NavigableMap 实现.TreeMap实现SortMap接口. 不允许null作为key， 无序的Map， 非线程安全。
 
+
+![collection](https://github.com/ncc0706/java-basic/blob/master/src/main/resources/Collection-Map.png)
