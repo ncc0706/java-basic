@@ -40,6 +40,8 @@ Set是一种不包含重复的元素的Collection，最多有一个null元素。
 
 无序 不重复 ， 允许一个null元素， 是基于HashMap实现的，线程非安全的
 
+### LinkedHashSet
 
+有序 ，不重复
 
 
