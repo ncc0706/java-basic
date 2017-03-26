@@ -22,11 +22,11 @@ Collection是集合的父类接口
 
 ### LinkedList
 
-LinkedList 有序可重复, 底层采用双向链表，每个节点都包含了对前一个和后一个元素的引用，允许null元素
+LinkedList 有序可重复, 底层采用双向链表，每个节点都包含了对前一个和后一个元素的引用，允许null元素，时候删除、添加操作。
 
 ### Vector
 
-Vector非常类似ArrayList，但是Vector是同步的。
+Vector非常类似ArrayList，但是Vector是同步的。同样适合查询
 
 ## Set
 
