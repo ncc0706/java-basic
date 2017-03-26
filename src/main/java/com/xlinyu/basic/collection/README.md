@@ -1,8 +1,12 @@
 # Collection
 
-Collection是集合的父类接口
+Collection是集合的父类接口，常见接口List、Set。
+
+List和Set的重要区别，Set是基于HashMap实现的。
 
 ## List
+
+ArrayList、LinkedList、Vector、Stack(extends Vector)
 
 ### ArrayList
 
