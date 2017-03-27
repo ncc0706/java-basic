@@ -41,7 +41,8 @@ Java 常见面试题
 	2. 使用ArrayList构造方法
 	3. 使用Collection的copy方法。
 
-6. 
 
+6. Thread的run()与start()的区别
 
+	答：start()方法用来启动线程，真正实现了多线程运行，run()方法相当于普通的方法调用
 
