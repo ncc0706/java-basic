@@ -46,3 +46,8 @@ Java 常见面试题
 
 	答：start()方法用来启动线程，真正实现了多线程运行，run()方法相当于普通的方法调用
 
+7. 在Java中Executor和Executors的区别？
+
+	1. Executors类，提供了一系列工厂方法用于创先线程池，返回的线程池都实现了ExecutorService接口。
+	2. 接口Executor只有一个方法execute，接口ExecutorService扩展了Executor并添加了一些生命周期管理的方法，如shutdown、submit等。一个Executor的生命周期有三种状态，运行 ，关闭 ，终止
+8. 
