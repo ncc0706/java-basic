@@ -10,10 +10,14 @@ public class Run05 {
 		Thread t1 = new Thread(mt, "A");
 		Thread t2 = new Thread(mt, "B");
 		Thread t3 = new Thread(mt, "C");
+		Thread t4 = new Thread(mt, "D");
+		Thread t5 = new Thread(mt, "E");
 		
 		t1.start();
 		t2.start();
 		t3.start();
+		t4.start();
+		t5.start();
 	}
 	
 	static class MyThread extends Thread {
@@ -21,11 +25,9 @@ public class Run05 {
 		private int count = 5;
 		
 		@Override
-		public void run() {
-			while(count > 0){
-				System.out.println("由 " + this.getName() + " 计算, count=" + count);
-				count--;
-			}
+		public synchronized void run() {
+			System.out.println("由 " + currentThread().getName()+ " 计算, count=" + count);
+			count--;
 		}
 	}
 }
