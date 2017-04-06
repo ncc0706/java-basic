@@ -18,7 +18,7 @@ public class ScheduledThreadPool01 {
 			public void run() {
 				System.out.println(sdf.format(new Date()) + " -> delay 3 seconds");
 			}
-		}, 3, 3, TimeUnit.SECONDS);
+		}, 1, 3, TimeUnit.SECONDS);
 		System.out.println(sdf.format(new Date()));
 	}
 
