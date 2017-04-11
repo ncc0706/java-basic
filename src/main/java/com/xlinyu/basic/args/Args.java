@@ -15,7 +15,10 @@ public class Args {
 		}
 		System.out.println("sum: " + sum);
 	}
-	
+	/**
+	 * 可变参数
+	 * @param strs
+	 */
 	public static void fun(String... strs){
 		for(int i=0;i<strs.length;i++){
 			System.out.println(strs[i]);
