@@ -20,6 +20,9 @@ public class String02 {
 		// 同上也是分配在堆内存上
 		String s5 = new String("Hello");
 		System.out.println(s4 == s5);
+		
+		// 这里为true  返回常量池中的引用
+		System.out.println(s3 == s4.intern());
 	}
 	
 }
